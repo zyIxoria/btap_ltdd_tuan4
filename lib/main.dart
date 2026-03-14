@@ -12,11 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Calculator App',
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
-      home: const CalculatorScreen(),
+      title: 'Bai tap 01 - Calculator UI',
+      home: CalculatorScreen(),
     );
   }
 }
